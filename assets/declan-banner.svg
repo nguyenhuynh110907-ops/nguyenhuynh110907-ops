@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Declan Nguyen — Aviation and AI</title>
+  <desc id="desc">A colorful midnight-blue banner with a flight path and aircraft illustration for Declan Nguyen, a Professional Pilot sophomore at Kent State University.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101B3E"/>
+      <stop offset="0.55" stop-color="#182452"/>
+      <stop offset="1" stop-color="#3B2464"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7CF3EF"/>
+      <stop offset="1" stop-color="#C9ADFF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#71E5EA"/>
+      <stop offset="0.52" stop-color="#B5A0FF"/>
+      <stop offset="1" stop-color="#FF829D"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#9773FF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#9773FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#BBC6FF" opacity="0.22"/>
+    </pattern>
+    <clipPath id="corners"><rect width="1200" height="360" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#corners)">
+    <rect width="1200" height="360" fill="url(#background)"/>
+    <rect width="1200" height="360" fill="url(#dots)"/>
+    <circle cx="991" cy="167" r="256" fill="url(#halo)"/>
+    <circle cx="1033" cy="163" r="128" fill="none" stroke="#BEA9FF" stroke-width="2" opacity="0.27"/>
+    <circle cx="1033" cy="163" r="93" fill="none" stroke="#76D9EC" stroke-width="2" opacity="0.28"/>
+
+    <path d="M-35 297 C214 215 387 347 617 301 S872 208 1030 226" fill="none" stroke="url(#accent)" stroke-width="3" stroke-dasharray="9 12" opacity="0.55"/>
+    <circle cx="630" cy="298" r="7" fill="#83EAF1"/>
+    <circle cx="630" cy="298" r="15" fill="none" stroke="#83EAF1" opacity="0.5"/>
+    <circle cx="812" cy="254" r="5" fill="#FF8AA4"/>
+
+    <rect x="70" y="61" width="178" height="34" rx="17" fill="#71E5EA" opacity="0.16" stroke="#71E5EA" stroke-opacity="0.7"/>
+    <text x="88" y="84" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#A9F3F5">AVIATION × AI</text>
+    <text x="66" y="166" font-family="Arial, Helvetica, sans-serif" font-size="67" font-weight="800" letter-spacing="-2" fill="#FFFFFF">Declan Nguyen</text>
+    <rect x="70" y="188" width="415" height="5" rx="3" fill="url(#accent)"/>
+    <text x="70" y="232" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="600" fill="#E7E8FF">Professional Pilot · Kent State University</text>
+    <text x="70" y="270" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#C5C7E6">Sophomore  /  ML &amp; DL in aviation  /  AI agents</text>
+
+    <g transform="translate(1018 154) rotate(-24)">
+      <path d="M-135 18 L-39 -9 L-8 -105 Q-5 -116 4 -116 Q13 -116 16 -105 L36 -9 L132 18 Q143 22 143 31 L143 39 L32 26 L17 76 L56 96 L56 104 L5 96 L-46 104 L-46 96 L-7 76 L-22 26 L-133 39 L-133 31 Q-133 22 -135 18 Z" fill="url(#wing)"/>
+      <path d="M4 -104 L4 89" stroke="#E9FFFF" stroke-width="2" opacity="0.5"/>
+      <circle cx="4" cy="-113" r="4" fill="#FFFFFF"/>
+    </g>
+    <path d="M1114 75 l4 11 11 4 -11 4 -4 11 -4 -11 -11 -4 11 -4z" fill="#FF92AA"/>
+    <path d="M864 56 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3z" fill="#83EAF1"/>
+    <circle cx="1156" cy="280" r="3" fill="#FF92AA"/>
+  </g>
+</svg>
