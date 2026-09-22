@@ -13,12 +13,6 @@ I'm a **sophomore in the Professional Pilot program at Kent State University**. 
 
 > Pilot mindset. AI curiosity. Always learning.
 
-## What I'm exploring
-
-| Aviation + ML/DL | Applied AI | AI agents |
-| :--- | :--- | :--- |
-| Data-driven approaches to flight operations, aircraft imagery, and aviation safety. | Turning models into practical tools that people can use. | Systems that can reason, plan, and help with meaningful workflows. |
-
 ## Let's connect
 
 I'm always happy to talk about aviation, ML/DL research ideas, applied AI, or agentic systems. Reach me at **[nguyenhuynh110907@gmail.com](mailto:nguyenhuynh110907@gmail.com)**.
